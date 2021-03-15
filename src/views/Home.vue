@@ -1,9 +1,10 @@
 <template>
   <div class="home">
-    <b-container>
+   
       <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
       <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
       <div id="what-we-do">
+         <b-container>
         <h2 class="title">How HIREtrades works</h2>
         <b-row class="my-5">
           <b-col cols="12" md="4">
@@ -58,88 +59,91 @@
             </div>
           </b-col>
         </b-row>
+         </b-container>
       </div>
-    </b-container>
-    <b-container>
+   
+    
       <!-- what-we-do end section-->
       <div id="inspirational-panel">
-        <h2 class="title text-center mb-4">Inspirational Panel</h2>
-        <b-row class="align-items-stretch">
-          <b-col cols="12" md="8">
-            <!-- <div> -->
-            <b-card no-body class="overflow-hidden align-self-start">
-              <b-row no-gutters>
-                <b-col cols="5" >
-                  <div class="d-block inspirational-panel-img" v-bind:style="{ backgroundImage: 'url(' + cost_guides_image + ')' }">
-                  </div>
-                </b-col>
-                <b-col cols="7">
-                  <b-card-body class="p-4" title="Cost Guides">
-                    <b-card-text class="mb-3">
-                      Research to assist consumers with Trades pricing.
-                      
-                    </b-card-text>
-                    <div>
-                      <router-link to="/" class="mb-2 d-block">View prices</router-link>
-                      </div>
-                  </b-card-body>
-                </b-col>
-              </b-row>
-            </b-card>
-          <!-- </div> -->
-            <!-- <div> -->
-            <b-card no-body class="overflow-hidden align-self-end">
-              <b-row no-gutters>
-                <b-col cols="7">
-                  <b-card-body class="p-4" title="Blogs">
-                    <b-card-text class="mb-3">
-                      Articles of interest and great ideas.
-                      
-                    </b-card-text><br>
-                    <div>
-                      <router-link to="/" class="mb-2 d-block">Discover more</router-link>
-                      </div>
-                  </b-card-body>
-                </b-col>
-                 <b-col cols="5">
-                   <div class="d-block inspirational-panel-img" v-bind:style="{ backgroundImage: 'url(' + cost_blog_image + ')' }">
-                  </div>
-                  <!-- <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0"  img-right></b-card-img> -->
-                </b-col>
-              </b-row>
-            </b-card>
-          <!-- </div> -->
-          </b-col>
-          <b-col cols="12" md="4">
-            <!-- <div> -->
-            <b-card no-body class="overflow-hidden align-self-start">
-              <b-row no-gutters>
-                <b-col cols="5" md="12">
-                  <div class="d-block inspirational-panel-img ask-tradie" v-bind:style="{ backgroundImage: 'url(' + cost_ask_tridie_image + ')' }">
-                  </div>
-                </b-col>
-                <!-- <b-col sm="12">
-                  <div class="d-block inspirational-panel-img ask-tradie" v-bind:style="{ backgroundImage: 'url(' + cost_guides_image + ')' }">
-                  </div>
-                </b-col> -->
-                <b-col cols="7" md="12">
-                  <b-card-body class="p-4" title="Ask a Tradie">
-                    <b-card-text class="mb-3">
-                      Our network of Tradies can help answer your questions.
-                    </b-card-text>
-                    <div>
-                      <router-link to="/" class="mb-2 d-block">What's your question?</router-link>
-                      </div>
-                  </b-card-body>
-                </b-col>
-              </b-row>
-            </b-card>
-          <!-- </div> -->
-          </b-col>
-        </b-row>      
+        <b-container>
+          <h2 class="title text-center mb-4">Inspirational Panel</h2>
+          <b-row class="align-items-stretch">
+            <b-col cols="12" md="8">
+              <!-- <div> -->
+              <b-card no-body class="overflow-hidden align-self-start">
+                <b-row no-gutters>
+                  <b-col cols="5" >
+                    <div class="d-block inspirational-panel-img" v-bind:style="{ backgroundImage: 'url(' + cost_guides_image + ')' }">
+                    </div>
+                  </b-col>
+                  <b-col cols="7">
+                    <b-card-body class="p-4" title="Cost Guides">
+                      <b-card-text class="mb-3">
+                        Research to assist consumers with Trades pricing.
+                        
+                      </b-card-text>
+                      <div>
+                        <router-link to="/" class="mb-2 d-block">View prices</router-link>
+                        </div>
+                    </b-card-body>
+                  </b-col>
+                </b-row>
+              </b-card>
+            <!-- </div> -->
+              <!-- <div> -->
+              <b-card no-body class="overflow-hidden align-self-end">
+                <b-row no-gutters>
+                  <b-col cols="7">
+                    <b-card-body class="p-4" title="Blogs">
+                      <b-card-text class="mb-3">
+                        Articles of interest and great ideas.
+                        
+                      </b-card-text><br>
+                      <div>
+                        <router-link to="/" class="mb-2 d-block">Discover more</router-link>
+                        </div>
+                    </b-card-body>
+                  </b-col>
+                  <b-col cols="5">
+                    <div class="d-block inspirational-panel-img" v-bind:style="{ backgroundImage: 'url(' + cost_blog_image + ')' }">
+                    </div>
+                    <!-- <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0"  img-right></b-card-img> -->
+                  </b-col>
+                </b-row>
+              </b-card>
+            <!-- </div> -->
+            </b-col>
+            <b-col cols="12" md="4">
+              <!-- <div> -->
+              <b-card no-body class="overflow-hidden align-self-start">
+                <b-row no-gutters>
+                  <b-col cols="5" md="12">
+                    <div class="d-block inspirational-panel-img ask-tradie" v-bind:style="{ backgroundImage: 'url(' + cost_ask_tridie_image + ')' }">
+                    </div>
+                  </b-col>
+                  <!-- <b-col sm="12">
+                    <div class="d-block inspirational-panel-img ask-tradie" v-bind:style="{ backgroundImage: 'url(' + cost_guides_image + ')' }">
+                    </div>
+                  </b-col> -->
+                  <b-col cols="7" md="12">
+                    <b-card-body class="p-4" title="Ask a Tradie">
+                      <b-card-text class="mb-3">
+                        Our network of Tradies can help answer your questions.
+                      </b-card-text>
+                      <div>
+                        <router-link to="/" class="mb-2 d-block">What's your question?</router-link>
+                        </div>
+                    </b-card-body>
+                  </b-col>
+                </b-row>
+              </b-card>
+            <!-- </div> -->
+            </b-col>
+          </b-row>    
+         </b-container>  
       </div>
       <!-- inspirational-panel end section-->
-    </b-container>
+    
     
       <div id="testimonials">
         <b-container>

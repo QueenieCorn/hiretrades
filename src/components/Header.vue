@@ -20,7 +20,7 @@
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
                  <b-nav-item to="/some/route/" exact exact-active-class="active">Get Qoutes</b-nav-item>
-                 <b-nav-item class="btn-register"><b-button variant="outline-primary" class="py-2 px-4">Register Business</b-button></b-nav-item>
+                 <b-nav-item class="btn-register"><b-button variant="outline-primary" class="btn-outline-lavender py-2 px-4">Register Business</b-button></b-nav-item>
                  <b-nav-item to="/some/route/" exact exact-active-class="active">Login</b-nav-item>
             </b-navbar-nav>
             </b-collapse>
@@ -62,6 +62,15 @@ nav {
             &:hover{
                 border-bottom: 1px solid transparent !important;
             }
+        }
+    }
+
+    .btn-outline-lavender{
+        color: #7367f0!important;
+        border-color: #7367f0!important;
+        &:hover{
+            background-color: #7367f0!important;
+            color: #fff!important;
         }
     }
     .navbar-toggler.queenie  {
