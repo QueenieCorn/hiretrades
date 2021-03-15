@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" align-v="left" class="px-md-3 p-2">
+        <b-navbar toggleable="lg" align-v="left" class="px-md-3">
             <b-navbar-brand href="#" class="p-0">
                 <router-link to="/">
                     <img alt="comp icon" class="pr-2" src="../assets/comp-icon.png">
