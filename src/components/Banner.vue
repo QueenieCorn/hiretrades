@@ -27,7 +27,7 @@
                         ></b-form-input>
                     </b-form-group>
                     <b-row class="justify-content-md-center mt-5">
-                      <b-col cols="12" md="8"> <b-button type="submit" variant="danger btn-block shadow btn-submit">Post Job</b-button></b-col>
+                      <b-col cols="12" md="8"> <b-button type="submit" variant="danger btn-block glow shadow btn-submit">Post a Job</b-button></b-col>
                     </b-row>
                    
                     </b-form>
@@ -140,5 +140,17 @@ form {
     background-color: #FF5B5C !important;
     border-color: #FF5B5C !important;
 }
-    
+.btn-danger{
+    // border-color: #ff2829!important;
+    background-color: #ff5b5c!important;
+    color: #fff;
+  &:hover{
+    &.glow {
+      -webkit-box-shadow: 0 4px 12px 0 rgba(255,91,92,.6)!important;
+      box-shadow: 0 4px 12px 0 rgba(255,91,92,.6)!important;
+    }
+  }
+}
+
+
 </style>
